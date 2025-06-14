@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #f3bb06; 
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+     .topnav{
+    overflow: hidden;
+    background-color: #333;
+    }
+.topnav a{
+    float: left;
+    color: deeppink;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover{
+    background-color: blueviolet;
+    color: deepskyblue;
+}
+.topnav a.active{
+    background-color: yellowgreen;
+    color: darkcyan;
+}
+
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.carousel-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;  
+}
+
+.myslides{
+    display: none;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+</style>
+</head>
+<body>
+ <div class="topnav">
+<a class="active" href="index.html">Home</a>  
+<a href="about.html">About</a>
+<a href="contactme.html">Contact me</a>
+<a href="gallery.html">Gallery</a>
+</div>   
+
+
+
+<div>
+    <p>Discover our School-
+    N. L. Dalmia High School has a legacy of more than 30 years of providing its students with quality education and
+    infinite opportunities to ‘dream big’. The School ethos focuses on adapting to changing times, and confidently upholding
+    on to the unchanging values and principles. It believes in ushering in globalization by exhibiting our agility in the
+    digital and technological areas.
+        </p>
+</div>
+<p>About website</p>
+
+<h1>my favourite Places</h1>
+
+<div class="carousel-container">
+    <img class="myslides" src="pic1.jpg" height="300" width="300" alt="Slide 1">
+    <img class="myslides" src="pic2.jpg" height="300" width="300" alt="Slide 2">
+    <img class="myslides" src="pic3.jpg" height="300" width="300" alt="Slide 3">
+</div>
+
+
+</body>
+</html>
